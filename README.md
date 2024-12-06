@@ -74,9 +74,9 @@ The output will be saved in the same format as the input:
 	...
 
 
-## Code Overview
+# Code Overview
 
-# Key Functions:
+## Key Functions:
 
 	readPGM: Reads a PGM file into a 2D vector.
 	writePGM: Writes a 2D vector as a PGM file.
@@ -84,7 +84,7 @@ The output will be saved in the same format as the input:
 	mergeSort: Sorts a vector of pixel values using Merge Sort.
 	MedianFilter: Applies a median filter using the selected sorting algorithm.
 
-# Median Filter Logic:
+## Median Filter Logic:
 
 	Extracts a pixel window around the target pixel.
 	Sorts the window using the chosen algorithm.
