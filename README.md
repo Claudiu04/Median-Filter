@@ -45,33 +45,33 @@ Example:
 The input file should be in the PGM format (P2), for example:
 
 
-P2
-// Comment line
-5 5
-255
-10 20 30 40 50
-60 70 80 90 100
-110 120 130 140 150
-160 170 180 190 200
-210 220 230 240 250
+	P2
+	// Comment line
+	5 5
+	255
+	10 20 30 40 50
+	60 70 80 90 100
+	110 120 130 140 150
+	160 170 180 190 200
+	210 220 230 240 250
 
 
 # Breakdown:
 
-P2: ASCII grayscale image.
-5 5: Width and height.
-255: Maximum grayscale value.
-Grayscale values for the image pixels.
+	P2: ASCII grayscale image.
+	5 5: Width and height.
+	255: Maximum grayscale value.
+	Grayscale values for the image pixels.
 
 
 # Output File Format:
 
 The output will be saved in the same format as the input:
 
-P2
-5 5
-255
-...
+	P2
+	5 5
+	255
+	...
 
 
 # Code Overview
