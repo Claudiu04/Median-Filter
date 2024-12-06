@@ -37,7 +37,7 @@ This program applies a Median Filter on a Portable GrayMap (PGM) image using eit
 
 Example:
 
-./MedianFilter bubble 3 input.pgm output.pgm
+	./MedianFilter bubble 3 input.pgm output.pgm
 
 
 # Input File Format:
@@ -74,7 +74,7 @@ The output will be saved in the same format as the input:
 	...
 
 
-# Code Overview
+## Code Overview
 
 # Key Functions:
 
